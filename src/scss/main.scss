@@ -1,18 +1,9 @@
+@use "../scss/reset.scss";
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 :root {
     font-size: 15px;
     font-family: 'Anton', sans-serif;
-}
-
-html {
-    scroll-behavior: smooth;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
 }
 
 // .titelbild {
@@ -25,7 +16,7 @@ body {
 }
 
 .main-links {
-    padding: 40vh 40vw;
+    padding: 36vh 40vw;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -39,6 +30,7 @@ body {
         text-decoration: none;
         margin: 0.5rem 0;
         text-overflow: overflow;
+        text-shadow: rgba(141, 141, 141, 0.603) 3px 3px 3px;
 
         &:hover {
             text-shadow: rgba(32, 170, 20, 0.5) 3px 3px 3px;
