@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Press+Start+2P&family=Share+Tech&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./styles/competition.css">
     <title>Competition</title>
 </head>
@@ -13,6 +15,40 @@
 <body>
 
 </body>
+<nav class="navbar">
+    <button class="burger navbar-toggle" id="js-navbar-toggle""
+            onclick=" this.classList.toggle('opened');this.setAttribute('aria-expanded',
+        this.classList.contains('opened'))" aria-label="Main Menu">
+        <svg width="40" height="40" viewBox="0 0 100 100">
+            <path class="line line1"
+                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path class="line line3"
+                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+        </svg>
+    </button>
+    <!-- </span> -->
+    <a href="#" class="logo">logo</a>
+    <ul class="main-nav" id="js-menu">
+        <li>
+            <a href="./index.html" class="nav-links">Home</a>
+        </li>
+        <li>
+            <a href="./digi_pakt_support_main.html" class="nav-links">Digitalpakt-Support</a>
+        </li>
+        <li>
+            <a href="./digi_edu_hub_main.html" class="nav-links">Digital Education Hub</a>
+        </li>
+        <li>
+            <a href="#" class="nav-links">Didactic-Wiki</a>
+        </li>
+        <li>
+            <a href="./competition_main.html" class="nav-links">Competition</a>
+        </li>
+    </ul>
+</nav>
+
+
 <main>
     <h1>Competition</h1>
     <p>Wer setzt ein Idee am effizientesten um? Wer findet die kreativste Lösung für eine Problemstellung?
@@ -30,22 +66,27 @@
         und Neugierige zusammenbringen. Darüber hinaus bieten die Wettbewerbe eine gute Möglichkeit (mediale)
         Aufmerksamkeit auf die MINT-Bereiche zu lenken und Begeisterung zu wecken.</p>
 
-        <article>
-            <h2>Verstehen & Gestalten Stadtrallye</h2>
-            <p>Verschiedene Orte der Stadt, Gruppen erledigen aufgaben an den Stationen. Aufgaben müssen zum Vermittlungsziel passen.</p>
-        </article>
+    <article>
+        <h2>Verstehen & Gestalten Stadtrallye</h2>
+        <p>Verschiedene Orte der Stadt, Gruppen erledigen aufgaben an den Stationen. Aufgaben müssen zum
+            Vermittlungsziel passen.</p>
+    </article>
 
-        <article>
-            <h2>With a little Help</h2>
-            <p>Wir bringen Jugendliche und Menschen in Ausbildung zusammen um gemeinsam als Team einen
-                Wettbewerb zu bestreiten. Dabei werden alle Teams während des gesamten Prozesses vom
-                Verstehen&Gestalten Verein begleitet.</p>
-        </article>
+    <article>
+        <h2>With a little Help</h2>
+        <p>Wir bringen Jugendliche und Menschen in Ausbildung zusammen um gemeinsam als Team einen
+            Wettbewerb zu bestreiten. Dabei werden alle Teams während des gesamten Prozesses vom
+            Verstehen&Gestalten Verein begleitet.</p>
+    </article>
 
-        <article>
-            <h2>BoatChallenge</h2>
-            <p>Irgendwas was schwimmt und Entfernung A-B unter den Prämissen XYZ am schnellsten zurücklegt.</p>
-        </article>
+    <article>
+        <h2>BoatChallenge</h2>
+        <p>Irgendwas was schwimmt und Entfernung A-B unter den Prämissen XYZ am schnellsten zurücklegt.</p>
+    </article>
 </main>
+
+
+
+<script src="./scripts/nav.js"></script>
 
 </html>
