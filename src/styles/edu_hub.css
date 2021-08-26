@@ -151,35 +151,37 @@ html {
   .logo:hover,
 .nav-links:hover {
     text-shadow: rgba(32, 170, 20, 0.7) 3px 3px 3px;
-    outline: 2px black solid;
     background-color: rgba(143, 143, 143, 0.37);
-    box-shadow: 0 0 20px 3px rgba(97, 96, 96, 0.37);
   }
 }
 footer {
   width: 100%;
-  background: linear-gradient(#fff, #d4d4d4);
+  background: linear-gradient(#292929, black);
   border-top: 2px black solid;
-  height: 30px;
+  height: 32px;
   display: flex;
   justify-content: end;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
-footer .footer_link {
+footer .footer_link_btn {
   height: 100%;
 }
-footer .footer_link a {
+footer .footer_link_btn .footer_link {
+  font-family: "Roboto", sans-serif;
   display: grid;
   align-items: center;
   text-decoration: none;
-  color: black;
-  margin-right: 2rem;
+  color: #8b8b8b;
+  margin-right: 1.5rem;
   font-weight: bold;
+  letter-spacing: 1px;
   height: 100%;
+  padding: 0 1rem;
 }
-footer .footer_link a:hover,
-footer .footer_link a .footer_link:hover {
-  text-shadow: rgba(32, 170, 20, 0.7) 3px 3px 3px;
-  outline: 2px black solid;
+footer .footer_link_btn .footer_link:hover,
+footer .footer_link_btn .footer_link .footer_link_btn:hover {
   background-color: rgba(143, 143, 143, 0.37);
   box-shadow: 0 0 20px 3px rgba(97, 96, 96, 0.37);
 }
@@ -191,12 +193,12 @@ footer .footer_link a .footer_link:hover {
 
 main {
   margin: 8rem 5rem;
-  padding: 2.5rem;
+  padding: 2.5rem 3rem;
   border-radius: 24px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
-  background-color: rgba(128, 128, 128, 0.7);
+  background-color: rgba(199, 199, 199, 0.85);
   box-shadow: 0 0 25px 5px rgba(0, 0, 0, 0.4);
   border-width: 3px 0 0 3px;
   border-style: solid;
@@ -206,8 +208,12 @@ main {
 p {
   margin-top: 1rem;
   font-size: 1.8rem;
-  padding: 0 2.8rem 0 2.8rem;
+  padding: 0 3rem 0 3rem;
   font-family: "Share Tech", sans-serif;
+}
+
+article p:first-of-type {
+  padding: 0 2.5rem;
 }
 
 h1, h2, h3, h4 {
@@ -250,8 +256,8 @@ h4 {
 
 article {
   border-radius: 24px;
-  padding: 2rem 3rem 4rem 3rem;
-  margin: 2.2rem 0 2.2rem 0;
+  padding: 2rem 3.5rem 4rem 3.5rem;
+  margin: 2.3rem 0 2.3rem 0;
   transition: transform 0.5s;
   scale: 1;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
@@ -263,17 +269,17 @@ article {
   border-color: rgba(49, 49, 49, 0.192);
 }
 article:hover {
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.45);
   outline: 2px rgba(73, 124, 43, 0.6) solid;
   transform: scale(1.01);
   transition: transform 0.5s;
-  box-shadow: 0 0 20px 5px rgba(32, 170, 20, 0.6);
+  box-shadow: 0 0 20px 5px rgba(32, 185, 18, 0.75);
 }
 article:hover h2 {
-  text-shadow: #20aa14 3px 3px 3px;
+  text-shadow: #20b912 3px 3px 3px;
 }
 article:hover h3 {
-  text-shadow: #20aa14 1px 1px 1px;
+  text-shadow: #20b912 2px 2px 2px;
 }
 
 article {

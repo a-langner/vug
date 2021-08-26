@@ -138,9 +138,7 @@
   .logo:hover,
 .nav-links:hover {
     text-shadow: rgba(32, 170, 20, 0.7) 3px 3px 3px;
-    outline: 2px black solid;
     background-color: rgba(143, 143, 143, 0.37);
-    box-shadow: 0 0 20px 3px rgba(97, 96, 96, 0.37);
   }
 }
 

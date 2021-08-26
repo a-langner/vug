@@ -1,13 +1,16 @@
 footer {
     width: 100%;
-    background: linear-gradient(#fff, rgb(212, 212, 212));
+    // background: linear-gradient(#fff, rgb(212, 212, 212));
+    background: linear-gradient(rgb(41, 41, 41), rgb(0, 0, 0));
     border-top: 2px black solid;
-    height: 30px;
+    height: 32px;
     display: flex;
-    // align-items: center;
     justify-content: end;
+    position: fixed;
+    left: 0;
+    bottom: 0;
 
-    .footer_link {
+    .footer_link_btn {
         height: 100%;
         // padding: 0 14px;
         // display: grid;
@@ -18,23 +21,26 @@ footer {
 
         // margin: 0 8px;
 
-        a {
+        .footer_link {
+            font-family: 'Roboto', sans-serif;
             display: grid;
             align-items: center;
             text-decoration: none;
-            color: black;
+            color: rgb(139, 139, 139);
             // vertical-align: middle;
-            margin-right: 2rem;
+            margin-right: 1.5rem;
             font-weight: bold;
+            letter-spacing: 1px;
             height: 100%;
+            padding: 0 1rem;
 
             &:hover,
-            .footer_link:hover {
+            .footer_link_btn:hover {
                 // color: rgba(255, 255, 255, 1);
-                text-shadow: rgba(32, 170, 20, 0.7) 3px 3px 3px;
+                // text-shadow: rgba(32, 170, 20, 0.7) 3px 3px 3px;
                 // border-left: 2px black solid;
                 // border-right: 2px black solid;
-                outline: 2px black solid;
+                // outline: 2px black solid;
                 // background-color: rgba(126, 126, 126, 0.37);
                 // background: linear-gradient(#ededed, #fff);
                 background-color: rgba(143, 143, 143, 0.37);
