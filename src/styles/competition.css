@@ -306,10 +306,15 @@ main {
 
 h2 {
   font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
 main article p {
   text-align: center;
+}
+
+article:first-of-type {
+  margin-top: 4rem;
 }
 
 /*# sourceMappingURL=competition.css.map */
