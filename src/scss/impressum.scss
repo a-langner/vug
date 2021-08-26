@@ -19,14 +19,21 @@ body {
     background-attachment: fixed;
     background-color: white;
 }
+
+main {
+padding: 5rem;
+}
+
 h1 {
     margin-bottom: 5rem;
 }
+
 h2 {
     margin-bottom: 4rem;
 }
+
 h3 {
-    margin-bottom: 3rem;
+    margin: 5rem 0 3rem 0;
 }
 
 p:first-of-type {
