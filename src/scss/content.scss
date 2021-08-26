@@ -163,7 +163,8 @@ article {
     &:hover {
         // background-color: rgba(151, 255, 16, 0.001);
         background-color: rgba(255, 255, 255, .35);
-        border: 2px rgba(70, 70, 70, 0.521) solid;
+        // border: 2px rgba(70, 70, 70, 0.521) solid;
+        outline: 2px rgba(73, 124, 43, 0.6) solid;
         transform: scale(1.01);
         transition: transform 0.5s;
         // box-shadow: 120px 80px 40px 20px rgba(170, 170, 170, 0.705);
