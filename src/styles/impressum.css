@@ -194,7 +194,7 @@ footer .footer_link_btn .footer_link .footer_link_btn:hover {
 main {
   margin: 10rem 5rem 8rem 5rem;
   padding: 2.5rem 3rem;
-  border-radius: 24px;
+  border-radius: 20px;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   position: relative;
   overflow: hidden;
@@ -255,7 +255,7 @@ h4 {
 }
 
 article {
-  border-radius: 24px;
+  border-radius: 20px;
   padding: 2rem 3.5rem 4rem 3.5rem;
   margin: 2.3rem 0 2.3rem 0;
   transition: transform 0.5s;
