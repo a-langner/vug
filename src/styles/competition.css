@@ -63,15 +63,13 @@ html {
   font-size: 18px;
   background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(212, 212, 212, 0.75));
   box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.5);
-  border: 1px solid rgba(0, 0, 0, 0.2);
   padding-bottom: 10px;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 2;
-  border-bottom: 2px black solid;
-  border-top: 2px black solid;
-  border: 2px 0 black solid;
+  border-bottom: 2px rgba(0, 0, 0, 0.75) solid;
+  border-top: 2px rgba(0, 0, 0, 0.75) solid;
 }
 
 .main-nav {
@@ -157,7 +155,6 @@ html {
 footer {
   width: 100%;
   background: linear-gradient(#292929, black);
-  border-top: 2px black solid;
   height: 32px;
   display: flex;
   justify-content: end;
@@ -226,7 +223,7 @@ h1 {
   font-size: 3.6rem;
   font-weight: bolder;
   text-align: center;
-  margin-bottom: 3rem;
+  margin-bottom: 3.2rem;
   color: #1c6815;
   text-shadow: rgba(0, 0, 0, 0.8) 2px 2px 2px;
 }

@@ -1,7 +1,6 @@
 footer {
   width: 100%;
   background: linear-gradient(#292929, black);
-  border-top: 2px black solid;
   height: 32px;
   display: flex;
   justify-content: end;
