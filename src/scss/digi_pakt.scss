@@ -1,8 +1,8 @@
-@use "../scss/variables.scss";
-@use "../scss/reset.scss";
-@use "../scss/nav.scss";
-@use "../scss/footer.scss";
-@use "../scss/content.scss";
+@use "variables";
+@use "reset";
+@use "nav";
+@use "footer";
+@use "content";
 
 :root {
     font-size: 15px;
